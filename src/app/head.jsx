@@ -19,13 +19,13 @@ export default function Head() {
       {/* Og */}
       <meta
         property="og:title"
-        content="RecFic - Fanfiction Recommendation Engine"
+        content="FicRec - Fanfiction Recommendation Engine"
       />
       <meta
         property="og:description"
-        content="RecFic is a fanfiction recommendation engine that uses a neural network to embed search queries and fanfiction summaries into a common vector space. Given a search query, RecFic will return a list of fanfictions that are semantically similar to the query."
+        content="FicRec is a fanfiction recommendation engine that uses a neural network to embed search queries and fanfiction summaries into a common vector space. Given a search query, FicRec will return a list of fanfictions that are semantically similar to the query."
       />
-      <meta property="og:site_name" content="RecFic" />
+      <meta property="og:site_name" content="FicRec" />
       <meta property="og:url" content="/" key="ogurl" />
       {/* Barlow */}
       <link

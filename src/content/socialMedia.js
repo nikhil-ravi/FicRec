@@ -9,7 +9,7 @@ const socialMedia = [
   {
     title: "Github",
     Icon: BsGithub,
-    url: "https://github.com/nikhil-ravi/RecFic",
+    url: "https://github.com/nikhil-ravi/FicRec",
   },
 ];
 

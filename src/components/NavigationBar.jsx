@@ -81,7 +81,7 @@ export default function NavigationBar() {
           className="relative hidden sm:inline-flex mr-3 font-sarina text-xl"
           href="/"
         >
-          RecFic
+          FicRec
         </Link>
         <p
           initial="hidden"
@@ -92,7 +92,7 @@ export default function NavigationBar() {
           }}
           className="absolute sm:!hidden w-fit left-0 right-0 mx-auto flex justify-center  text-base font-sarina"
         >
-          RecFic
+          FicRec
         </p>
       </div>
       {/* </Link> */}
