@@ -5,7 +5,7 @@ import { data } from "@/content/fics";
 export async function GET() {
   // only allow this in non-production environments
   if (process.env.NODE_ENV === "production") {
-    return NextResponse.next();
+    return NextResponse.json({ success: false }, { status: 403 });
   }
   async function batchUpsert(data, vectors, batchSize, pineconeIndex) {
     const batches = [];
