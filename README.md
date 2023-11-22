@@ -43,7 +43,7 @@ Welcome to Fanfic Explorer, your go-to platform for discovering fanfics across v
 
 ## Getting Started
 
-To explore the world of fanfics with PromptFic, simply visit [website-url] and start entering your prompts to discover a curated list of fanfics tailored to your preferences.
+To explore the world of fanfics with PromptFic, simply visit [PromptFic](https://promptfic.nikhilravi.com) and start entering your prompts to discover a curated list of fanfics tailored to your preferences.
 
 Feel free to explore, discover, and immerse yourself in the diverse universe of fanfiction with Fanfic Explorer! If you have any questions or feedback, don't hesitate to reach out.
 
