@@ -23,19 +23,19 @@ const Fic = ({ fic }) => {
     .join(" - ");
   return (
     <div className="p-2 border-b-2 pb-4">
-      <div className="flex gap-1 items-center">
+      <div className="flex flex-col md:flex-row md:gap-1 md:items-center">
         <Link
           href={`https://www.fanfiction.net/s/${fic.id}`}
           className="text-lg text-blue-400 font-semibold"
         >
           {fic.metadata.title}
         </Link>
-        <FaAngleRight />
+        <FaAngleRight className="collapse md:visible" />
         <p className="flex-1">{fic.metadata.author}</p>
         <strong className="">Score: {fic.score.toFixed(2)}</strong>
       </div>
-      <p className="font-mono">{fic.metadata.summary}</p>
-      <p className="text-sm">{metaText}</p>
+      <p className="text-lg font-mono">{fic.metadata.summary}</p>
+      <p className="text-sm font-extralight">{metaText}</p>
     </div>
   );
 };
